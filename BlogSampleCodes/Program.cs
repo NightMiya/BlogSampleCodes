@@ -1,9 +1,11 @@
-﻿using System;
-using System.Linq;
+﻿using BlogSampleCodes.ConcurrentStructurePerformanceCheck;
 
-public class Program {
+namespace BlogSampleCodes;
 
-    public static void Main() {
-
+public static class Program 
+{
+    public static void Main()
+    {
+        DictionaryChecker.GetResult();
     }
 }
